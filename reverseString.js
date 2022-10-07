@@ -1,9 +1,6 @@
 const reverseString = (string) => {
-    if(string.length > 0) {
-        return string.split('').reverse.join('')
-    }else {
-        return 'string is empty';
-    }
+    const output = string.split('').reverse().join('')
+    return output;
 }
 
 module.exports = reverseString;
