@@ -1,5 +1,5 @@
 const stringLength = require('./charCount')
-
+let error;
 test('return the length of entered string', () => {
     expect(stringLength('coding')).toBe(6);
 })
